@@ -1,13 +1,23 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### PURPOSE
+1.Retrieve the initial books list.
+2.Add a book and its reading schedule to the list of books.
+3.Update a book’s title and/or reading schedule.
+4.Delete a book from the list of books.
 
 ## Available Scripts
+Run the following command in both sub-folders separately to install the dependencies:
 
-In the project directory, you can run:
+### npm install
 
-### `npm start`
+To run the application, you will need to have two separate terminal windows or tabs open: one for the frontend folder and the other for the backend folder. You will want to start the application in backend folder, then the frontend folder. You can start the application with the following command:
 
+### npm run start
+
+You will get a notification in the terminal window when starting the server in the frontend folder, stating that the port 3000 is in use and asking if you would like to use another port like below:
+
+Would you like to run the app on another port instead? › (Y/n)
+
+Type y in the terminal prompt to use a different port.
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
@@ -17,7 +27,6 @@ You may also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
